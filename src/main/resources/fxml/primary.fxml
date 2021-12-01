@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="1095.0" prefWidth="1520.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lowe.backjack.FXMLController">
+   <children>
+      <ImageView fx:id="imgCCard1" fitHeight="297.0" fitWidth="203.0" layoutX="444.0" layoutY="101.0" onMouseClicked="#MClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../card%20back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgCCard2" fitHeight="297.0" fitWidth="203.0" layoutX="871.0" layoutY="101.0" onMouseClicked="#MClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../card%20back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgPCard3" fitHeight="297.0" fitWidth="203.0" layoutX="545.0" layoutY="622.0" onMouseClicked="#MClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../card%20back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgPCard4" fitHeight="297.0" fitWidth="203.0" layoutX="769.0" layoutY="622.0" onMouseClicked="#MClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../card%20back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgPCard1" fitHeight="297.0" fitWidth="203.0" layoutX="545.0" layoutY="766.0" onMouseClicked="#MClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../card%20back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgPCard2" fitHeight="297.0" fitWidth="203.0" layoutX="769.0" layoutY="766.0" onMouseClicked="#MClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../card%20back.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
